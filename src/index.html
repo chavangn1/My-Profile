@@ -7,7 +7,7 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 
-<body class="pt-16 bg-gray-950">
+<body class="bg-gray-950 pt-16">
     <!-- Navbar content -->
     <nav class="fixed top-0 left-0 w-full bg-gray-900 text-white flex justify-between items-center px-12 py-4">
 
@@ -26,27 +26,92 @@
     <!-- End Navbar Content  -->
 
     <!-- Hero Section Start -->
-<section class="h-screen flex flex-col justify-center items-center gap-5 bg-gray-950">
-    
-    <h1 class="text-5xl text-white font-bold text-center">Hello, I'm Gajanan Chavan 👋</h1>
-    
-    <h2 class="text-xl text-gray-400">Python Software Developer</h2>
-    
-    <p class="text-gray-300 text-center max-w-md">
-        I turn complex backend problems into scalable REST APIs using Django and DRF — then ship them to AWS and make them look good with Tailwind CSS.
-    </p>
+    <section class="h-fit p-20 flex flex-col justify-center items-center gap-5 bg-gray-950 px-6">
 
-    <div class="flex gap-5 mt-2">
-        <button class="bg-white text-gray-900 rounded-lg px-5 py-2 border border-gray-950 hover:text-white hover:bg-gray-950 hover:border-white transition duration-300">
-            View Projects
-        </button>
-        <button class="bg-transparent text-white rounded-lg px-5 py-2 border border-white hover:bg-white hover:text-gray-950 transition duration-300">
-            Contact Me
-        </button>
-    </div>
+        <h1 class="text-5xl text-white font-bold text-center animate-bounce duration-1000">Hello, I'm Gajanan Chavan👋</h1>
 
-</section>
-<!-- Hero Section End -->
+        <h2 class="text-xl text-gray-400">Python Software Developer</h2>
+        <p class="text-gray-300 text-center max-w-md">
+            2.5+ year of experience building and deploying production-grade Django APIs at TCS — turning real business
+            problems into clean, scalable backend solutions.
+        </p>
+
+        <div class="flex gap-5 mt-2">
+            <button
+                class="bg-white text-gray-900 rounded-lg px-5 py-2 border border-gray-950 hover:text-white hover:bg-gray-950 hover:border-white transition duration-300">
+                View Projects
+            </button>
+            <button
+                class="bg-transparent text-white rounded-lg px-5 py-2 border border-white hover:bg-white hover:text-gray-950 transition duration-300">
+                Contact Me
+            </button>
+        </div>
+
+    </section>
+    <!-- Hero Section End -->
+
+
+    <!-- about section starts here -->
+    <section id="about" class="bg-gray-950 py-4 px-8">
+
+        <div class="max-w-4xl mx-auto bg-white rounded-2xl p-10 shadow-lg">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Left -->
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900">About Me</h2>
+                    <hr class="mt-4 mb-4 border-gray-300">
+                    <p class="text-gray-600 leading-relaxed">
+                        I turn complex backend problems into scalable REST APIs using Django
+                        and DRF — then ship them to AWS and make them look good with Tailwind CSS.
+                    </p>
+                </div>
+                <!-- Right -->
+                <div class="flex flex-col gap-4 justify-center text-gray-700">
+                    <p>📍 Pune, India</p>
+                    <p>🎓 Mechanical Engineering 2023 — Walchand Institute of Technology, Solapur</p>
+                    <p>💼 Python Software Developer at TCS</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- about section ends here -->
+
+    <!-- Skills Section Start -->
+    <section class="bg-gray-950 flex flex-col gap-7 py-16 px-12 max-w-2xl">
+
+        <h2 class="text-3xl font-bold text-white">My Skills</h2>
+
+        <div class=" grid grid-cols-2 gap-3">
+            <span
+                class="border border-white text-white rounded-xl px-4 py-2 hover:bg-white hover:text-gray-950 transition-all duration-200 cursor-default">Python</span>
+            <span
+                class="border border-white text-white rounded-xl px-4 py-2 hover:bg-white hover:text-gray-950 transition-all duration-200 cursor-default">Django</span>
+            <span
+                class="border border-white text-white rounded-xl px-4 py-2 hover:bg-white hover:text-gray-950 transition-all duration-200 cursor-default">Django
+                REST Framework</span>
+            <span
+                class="border border-white text-white rounded-xl px-4 py-2 hover:bg-white hover:text-gray-950 transition-all duration-200 cursor-default">AWS</span>
+            <span
+                class="border border-white text-white rounded-xl px-4 py-2 hover:bg-white hover:text-gray-950 transition-all duration-200 cursor-default">PostgreSQL</span>
+            <span
+                class="border border-white text-white rounded-xl px-4 py-2 hover:bg-white hover:text-gray-950 transition-all duration-200 cursor-default">Tailwind
+                CSS</span>
+            <span
+                class="border border-white text-white rounded-xl px-4 py-2 hover:bg-white hover:text-gray-950 transition-all duration-200 cursor-default">Git</span>
+            <span
+                class="border border-white text-white rounded-xl px-4 py-2 hover:bg-white hover:text-gray-950 transition-all duration-200 cursor-default">Linux</span>
+            <span
+                class="border border-white text-white rounded-xl px-4 py-2 hover:bg-white hover:text-gray-950 transition-all duration-200 cursor-default">REST
+                APIs</span>
+            <span
+                class="border border-white text-white rounded-xl px-4 py-2 hover:bg-white hover:text-gray-950 transition-all duration-200 cursor-default">Docker</span>
+        </div>
+
+    </section>
+    <!-- Skills Section End -->
 </body>
 
 </html>
